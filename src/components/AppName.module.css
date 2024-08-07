@@ -1,6 +1,17 @@
+.headerContainer {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically if needed */
+  padding: 20px; /* Add padding around the container */
+  text-align: center; /* Center text inside the container */
+}
+
 .todoHeading {
-   font-weight: 700;
-   font-size: 45px;
-   margin: 10px;
-   margin-bottom: 20px;
+  margin-bottom: 20px; /* Remove default margin */
+  display: inline; /* Ensure it's displayed inline */
+}
+
+.todoHeading small {
+  font-size: 0.5em; /* Adjust font size if necessary */
+  margin-left: 0.5em; /* Add some space between TODO App and the name */
 }
